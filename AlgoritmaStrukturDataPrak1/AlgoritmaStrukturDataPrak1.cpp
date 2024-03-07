@@ -51,9 +51,9 @@ void display() {
     cout << "================================" << endl;
     cout << endl;
     for (int j = 0; j < n; j++) {
-        cout << arr[j] << endl; //output setiap element array pada garis baru
+        cout << arr[j]; //output setiap element array pada garis baru
         if (j < n - 1) {
-            cout << "--> ";
+            cout << "-->";
         }
     }
     cout << endl;
